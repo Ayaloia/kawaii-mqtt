@@ -54,7 +54,7 @@
 #endif
 
 #if defined(MBEDTLS_SHA256_C)
-#include "mbedtls/sha256.h"
+#include "mbedtls/mbedtls_sha256.h"
 #endif
 
 #if defined(MBEDTLS_SHA512_C)
@@ -62,7 +62,7 @@
 #endif
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdlib.h>
 #define mbedtls_calloc    calloc

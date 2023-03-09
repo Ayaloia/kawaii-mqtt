@@ -13,7 +13,7 @@
 
 #ifdef KAWAII_MQTT_NETWORK_TYPE_TLS
 
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #include "mbedtls/ssl.h"
 #include "mbedtls/entropy.h"
 #include "mbedtls/net_sockets.h"

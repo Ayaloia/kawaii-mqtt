@@ -30,7 +30,7 @@
 #if defined(MBEDTLS_SSL_TLS_C)
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdlib.h>
 #endif

@@ -32,7 +32,7 @@
 #if defined(MBEDTLS_SSL_COOKIE_C)
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #define mbedtls_calloc    calloc
 #define mbedtls_free      free

@@ -30,7 +30,7 @@
 
 /* No need for the header guard as MBEDTLS_MEMORY_BUFFER_ALLOC_C
    is dependent upon MBEDTLS_PLATFORM_C */
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #include "mbedtls/platform_util.h"
 
 #include <string.h>

@@ -44,7 +44,7 @@
 #include "mbedtls/havege.h"
 #endif
 #if defined(MBEDTLS_ENTROPY_NV_SEED)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #endif
 
 #if !defined(MBEDTLS_NO_PLATFORM_ENTROPY)

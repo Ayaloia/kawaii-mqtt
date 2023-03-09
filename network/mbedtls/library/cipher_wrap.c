@@ -38,7 +38,7 @@
 #endif
 
 #if defined(MBEDTLS_AES_C)
-#include "mbedtls/aes.h"
+#include "mbedtls/mbedtls_aes.h"
 #endif
 
 #if defined(MBEDTLS_ARC4_C)
@@ -78,7 +78,7 @@
 #endif
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdlib.h>
 #define mbedtls_calloc    calloc

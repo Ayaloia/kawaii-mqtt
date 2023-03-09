@@ -32,7 +32,7 @@
 #include "mbedtls/x509_crt.h"
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdlib.h>
 #define mbedtls_calloc    calloc

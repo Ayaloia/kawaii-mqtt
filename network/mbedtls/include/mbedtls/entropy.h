@@ -38,7 +38,7 @@
 #else
 #if defined(MBEDTLS_SHA256_C)
 #define MBEDTLS_ENTROPY_SHA256_ACCUMULATOR
-#include "sha256.h"
+#include "mbedtls_sha256.h"
 #endif
 #endif
 

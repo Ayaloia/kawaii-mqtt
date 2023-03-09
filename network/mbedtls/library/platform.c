@@ -27,7 +27,7 @@
 
 #if defined(MBEDTLS_PLATFORM_C)
 
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #include "mbedtls/platform_util.h"
 
 /* The compile time configuration of memory allocation via the macros

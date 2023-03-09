@@ -31,7 +31,7 @@
 #endif
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #define mbedtls_snprintf snprintf
 #define mbedtls_time_t   time_t
@@ -42,7 +42,7 @@
 #include <stdio.h>
 
 #if defined(MBEDTLS_AES_C)
-#include "mbedtls/aes.h"
+#include "mbedtls/mbedtls_aes.h"
 #endif
 
 #if defined(MBEDTLS_ARC4_C)
@@ -166,7 +166,7 @@
 #endif
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #endif
 
 #if defined(MBEDTLS_POLY1305_C)
@@ -186,7 +186,7 @@
 #endif
 
 #if defined(MBEDTLS_SHA256_C)
-#include "mbedtls/sha256.h"
+#include "mbedtls/mbedtls_sha256.h"
 #endif
 
 #if defined(MBEDTLS_SHA512_C)

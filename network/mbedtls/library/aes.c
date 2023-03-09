@@ -35,8 +35,8 @@
 
 #include <string.h>
 
-#include "mbedtls/aes.h"
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_aes.h"
+#include "mbedtls/mbedtls_platform.h"
 #include "mbedtls/platform_util.h"
 #if defined(MBEDTLS_PADLOCK_C)
 #include "mbedtls/padlock.h"
@@ -47,7 +47,7 @@
 
 #if defined(MBEDTLS_SELF_TEST)
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdio.h>
 #define mbedtls_printf printf

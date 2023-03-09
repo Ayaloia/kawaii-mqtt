@@ -42,7 +42,7 @@
 #include MBEDTLS_CONFIG_FILE
 #endif
 
-#include "aes.h"
+#include "mbedtls_aes.h"
 
 #if defined(MBEDTLS_THREADING_C)
 #include "threading.h"

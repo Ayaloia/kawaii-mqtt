@@ -30,7 +30,7 @@
 #include "mbedtls/pem.h"
 #include "mbedtls/base64.h"
 #include "mbedtls/des.h"
-#include "mbedtls/aes.h"
+#include "mbedtls/mbedtls_aes.h"
 #include "mbedtls/md5.h"
 #include "mbedtls/cipher.h"
 #include "mbedtls/platform_util.h"
@@ -38,7 +38,7 @@
 #include <string.h>
 
 #if defined(MBEDTLS_PLATFORM_C)
-#include "mbedtls/platform.h"
+#include "mbedtls/mbedtls_platform.h"
 #else
 #include <stdlib.h>
 #define mbedtls_calloc    calloc
